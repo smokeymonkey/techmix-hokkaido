@@ -3,9 +3,9 @@
 body {
   text-align: center;
   font-family: "Source Code Pro", "Ricty", "MigMix 1M", "Migu 1M", "ＭＳ ゴシック", "MS Gothic" monospace; 
-  padding-bottom: 45px;
+  padding: 10px 10px 45px;
   background-color: #111111;
-  color: #00EE22;
+  color: #00DD22;
   line-height: 1.5;
 }
 
@@ -13,10 +13,15 @@ a,
 a:visited {
   display: inline-block;
   color: #EEEE00;
+  margin: .2em .2em .2em 0;
+  padding: 0 .2em;
+  border: 1px solid #CCCC00;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
+  border-color: #FFFF00;
   background-color: #FFFF00;
   color: #111111;
   text-decoration: none;
@@ -49,7 +54,7 @@ h1 {
 }
 
 table {
-  width: 90%;
+  width: 100%;
   max-width: 960px;
   margin: 0;
   border: 0 none;
@@ -66,17 +71,59 @@ table th,
 table td:first-child {
   padding: 1em;
   border: 2px dashed #00BB00;
+  color: #00FFFF;
   font-weight: normal;
   white-space: nowrap;
   vertical-align: top;
 }
 
-table td table {
+table table {
   width: auto;
   max-width: 100%;
   margin: 0;
   border: 0 none;
 }
+
+table table th,
+table table td:first-child {
+  color: #00DD22;
+}
+
+
+/* smartphone */
+
+@media (max-width: 767px) {
+
+img:first-child {
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+}
+
+table {
+  display: block;
+}
+
+table td {
+  border-top: 0 none;
+}
+
+table td,
+table th,
+table td:first-child {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table td:last-child table tr:first-child {
+  display: none;
+}
+
+
+}
+
+
 
 
 
