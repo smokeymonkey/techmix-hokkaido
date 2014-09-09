@@ -3,9 +3,10 @@
 body {
   text-align: center;
   font-family: sans-serif; 
-  padding-bottom: 20px;
+  padding-bottom: 45px;
   background-color: #111111;
   color: #00EE22;
+  color: #EEEEEE;
   line-height: 1.5;
 }
 
@@ -46,6 +47,38 @@ h1 {
   margin: 0;
   line-height: 1.5;
 }
+
+table {
+  width: 90%;
+  max-width: 960px;
+  margin: 0;
+  border: 0 none;
+}
+
+table td {
+  padding: 1em;
+  background-color: #111111;
+  border: 2px dashed #00BB00;
+  line-height: 1.75;
+}
+
+table th,
+table tr td:first-child {
+  padding: 1em;
+  border: 2px dashed #00BB00;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+table td table {
+  width: auto;
+  max-width: 100%;
+  margin: 0;
+  border: 0 none;
+}
+
+
+
 
 .doc {
   font-size: 14px;
