@@ -4,6 +4,20 @@ body {
   text-align: center;
   font-family: sans-serif; 
   padding-bottom: 20px;
+  background-color: #111111;
+  color: #00DD22;
+}
+
+a,
+a:visited {
+  color: #CCCC00;
+}
+
+a:hover,
+a:focus {
+  background-color: #CCCC00;
+  color: #111111;
+  text-decoration: none;
 }
 
 h1 {
