@@ -13,23 +13,25 @@
       "name": "@kaznum",
       "url": "http://about.me/kaznum",
       "time": "13:40-14:00",
-      "title": "-",
+      "title": "",
       "introduction": "札幌の独立系システムインテグレータで働くプログラマ(主にWebアプリ)。最近会社での立場上プログラムをゴリゴリと書くことがめっきり減ってしまい、プライベートでRuby on Railsを使ってWEBアプリケーションを作ったり、Githubに(無断で)会社のOrganizationを作ってプロダクトを公開したり、AWSを使っていろいろ構築するなどして鬱憤晴らし(名目上、修行)をしています。最近興味のある分野は、Scheme、Haskell、JavaScript、AngularJS。"
     },
     {
       "speaker": 1,
+      "avatar": "speaker_sandinist.png",
       "name": "@sandinist",
       "url": "http://twitter.com/sandinist",
       "time": "14:00-14:20",
-      "title": "-",
+      "title": "",
       "introduction": "札幌でメーカー系の SEとして勤務。ここ数年はプロダクト・サービスのライフサイクルよりも息の長いチームを運営し ています。仕事はiOSアプリを中心に、いわゆるふつうのアジャイルなソフトウェア開発を組織に> 広げる活動も実施しています。最近の興味はVRやモーションセンサー関連。"
     },
     {
       "speaker": 1,
       "name": "@ursm",
+      "avatar": "speaker_ursm.png",
       "url": "http://twitter.com/ursm",
       "time": "14:20-14:40",
-      "title": "-",
+      "title": "",
       "introduction": "札幌には縁もゆかりもないものの、家から出ないのでどこにいても変わらないことに気付き2014年にえにしテックに入社。Webアプリケーション開発のやや下のあたりを専門とするプログラマ。好きなパッケージ管理システムはPortage。Kinesis Contoured Keyboardを自宅用・職場用・貸出用の3枚所持している。将来の夢は全角文字しか受け付けないフォームが存在しない世界を実現すること。"
     },
     {
@@ -43,17 +45,19 @@
     {
       "speaker": 1,
       "name": "@furuya02",
+      "avatar": "speaker_furuya02.png",
       "url": "http://twitter.com/furuya02",
       "time": "14:50-15:10",
-      "title": "-",
+      "title": "",
       "introduction": "札幌在住の自称プログラマです。C#が好きで、夜な夜な試行錯誤を繰り返しています。最近は、Xamarinに嵌っていて、ほぼ毎日ザマッてます。皆さんもザマッてますか～？"
     },
     {
       "speaker": 1,
       "name": "@giginet",
+      "avatar": "speaker_giginet.png",
       "url": "http://twitter.com/giginet",
       "time": "15:10-15:30",
-      "title": "-",
+      "title": "",
       "introduction": "突っ走るプログラマ。普段はiOSアプリを中心に，インディーゲーム開発を行っている。札幌ゲーム製作者コミュニティKawazを運営しており、48時間でゲームを作るハッカソンGlobal Game Jamの運営や、各種ゲーム開発系の勉強会も主催している。ゲーム開発のみならず，はてなやクックパッドのインターンシップにも参加するなど，Web開発も行っている。本業は大学院生。好きな言語はPython、Objective-C。"
     },
     {
@@ -61,7 +65,7 @@
       "name": "稲葉一紀",
       "url": "http://inaba-serverdesign.jp/",
       "time": "15:30-15:50",
-      "title": "-",
+      "title": "",
       "introduction": "札幌市在住、フリーランスのサーバーインフラエンジニア。クラウド上（たまにオンプレミスも）で、セキュリティや性能、冗長性などを考慮したサーバー環境を設計・構築する。定期的にIaaSクラウドの比較調査を行っている。"
     },
     {
@@ -75,6 +79,7 @@
     {
       "speaker": 1,
       "name": "@rarere",
+      "avatar": "speaker_rarere.png",
       "url": "http://twitter.com/rarere",
       "time": "16:00-16:20",
       "title": "ごみカレンダー",
@@ -83,17 +88,19 @@
     {
       "speaker": 1,
       "name": "@irasally",
+      "avatar": "speaker_irasally.png",
       "url": "http://twitter.com/irasally",
       "time": "16:20-16:40",
-      "title": "-",
+      "title": "",
       "introduction": "通称オム子。札幌市内でn回転職し、現在は独立系SI企業に勤務している。2014年「人妻」という新しい呼び名を手に入れた。職業はプログラマだが、自分が「技術者」なのか日々自問自答中。最近はCodeと人との関わりに興味を持っている。"
     },
     {
       "speaker": 1,
       "name": "@iloop_sapporo",
+      "avatar": "speaker_iloop_sapporo.png",
       "url": "http://twitter.com/iloop_sapporo",
       "time": "16:40-17:00",
-      "title": "-",
+      "title": "",
       "introduction": "株式会社インフィニットループは、札幌市内にあるシステム開発会社です。主にスマートフォン向けゲームやブラウザゲーム開発を行っています。"
     },
     {
@@ -107,25 +114,28 @@
     {
       "speaker": 1,
       "name": "@h2ham",
+      "avatar": "speaker_h2ham.png",
       "url": "http://twitter.com/h2ham",
       "time": "17:10-17:30",
-      "title": "-",
+      "title": "",
       "introduction": "北海道の札幌で活動しているフリーランスのフロントエンドエンジニア。HTML & CSS & JavaScript・jQueryによるページのコーディングや、システムやCMSを利用したWebサイト構築・テンプレートの作成、スマートフォンサイトコーディングなどを得意としている。制作活動のほか、Webデザイナー向けの勉強会「SaCSS」の主催・運営を行い、ほぼ毎月セミナーやハンズオンの勉強会を開催している。"
     },
     {
       "speaker": 1,
       "name": "@cocominap",
+      "avatar": "speaker_cocominap.png",
       "url": "http://twitter.com/cocominap",
       "time": "17:30-17:50",
-      "title": "-",
+      "title": "",
       "introduction": "札幌で活動するiOSディベロッパー。ヨドバシカメラでiPhone 3GSに出会い、スワイプやピンチインなどのUIに触れて以来、iPhoneの大ファンに。音系アプリや寿司の枚数を数えるアプリなど、「シンプルで既存のものとはひと味違うアプリ」をテーマにiPhoneアプリを個人で制作。使用言語はObjective-CとSwiftがメイン。趣味はピアノ、ゲーム、ジム通い。"
     },
     {
       "speaker": 1,
       "name": "@niku_name",
+      "avatar": "speaker_niku_name.png",
       "url": "http://twitter.com/niku_name",
       "time": "17:50-18:10",
-      "title": "-",
+      "title": "",
       "introduction": "コンサドーレ札幌が好きなプログラマ。ErlangVM上で動作する言語に関する話題やそうでない話題でわいわいやるsapporo.beamという集まりをだいたい木曜日に札幌やインターネット上で行っている。飽きっぽいところがあるがRubyやEmacsとは長くおつきあいしている。最近はErlangVM上で動作するRuby風の記述ができる言語Elixirと遊んでいる。これからやってみたいことはカーリング、指笛が吹けるようになること、バク転。"
     },
     {

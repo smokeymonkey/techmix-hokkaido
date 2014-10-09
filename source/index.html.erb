@@ -1,9 +1,36 @@
-<div align="center"><img src="./images/techmix.png">
-<p align="center">Techmix Hokkaido 2014</p>
-<table width="80%" border="1">
-<tr>
-<td>はじめに</td>
-<td>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=540317512728258&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="wrapper">
+
+<header class="header">
+<div class="header_inner">
+<h1><img src="img/title.png" alt="TECHMIX HOKKAIDO 2014 12.6 札幌市民ホール"></h1>
+<div class="entry"><a href="http://techmix-hokkaido.doorkeeper.jp/events/13592" target="_blank">ENTRY</a></div>
+<div class="mainimg"><img src="img/mainimg.png"></div>
+</div>
+</header>
+
+<nav id="glnav" class="glnav">
+<ul>
+<li><a href="#introduction">INTRODUCTION</a></li>
+<li><a href="#summary">SUMMARY</a></li>
+<li><a href="#speaker">SPEAKER</a></li>
+<li><a href="#timetable">TIMETABLE</a></li>
+<li><a href="#access">ACCESS</a></li>
+<li class="last"><a href="http://techmix-hokkaido.doorkeeper.jp/events/13592" target="_blank">ENTRY</a></li>
+</ul>
+</nav>
+
+<article class="main">
+
+<section id="introduction" class="section">
+<h1>INTRODUCTION<span>はじめに</span></h1>
 <p>北海道のITエンジニアの皆さん、毎日ワクワクしてますか？</p>
 <p>今回、北海道で活躍する色々なスキルセットを持つITエンジニアの皆さんに、20分間好きなことを喋ってもらう、というイベントを開催します。フロントエンドもバックエンドもアプリもインフラも組み込みも関係ありません。どのような言語縛りも無く、どのようなベンダロックもありません。北海道で活躍するITエンジニアたちの、その努力と成果を、敬意を持って拝聴したい。そしてワクワクしたい。それが、このイベントの主旨です。</p>
 <p>このイベントが対象としているオーディエンスは以下のような皆さんです。</p>
@@ -16,58 +43,95 @@
 </ul>
 <p>スピーカーの皆さん、好きな事を話して下さい。観客を置き去りにするくらいで構いません。皆さんが今好きなこと、興味があること、ハマっていることを、是非私たちに教えて下さい。</p>
 <p>オーディエンスの皆さん、このイベントを皆さんの得意分野以外の技術を知るきっかけにして頂きたいです。北海道にはこんなにもすごいITエンジニアがいて、面白いITコミュニティや勉強会があるということを知って頂けると嬉しいです。</p>
-</td>
-<tr>
-<td>概要</td>
-<td>
-Date:2014/12/06(Sat)<br>
-Time:Open-13:00 Start-13:30 End-19:00<br>
-Place:札幌市民ホール(札幌市中央区北1条西1丁目) 第1会議室<br>
-Price:会場費用として\500頂いております。宜しくお願いします<br>
-Staff:<br>
-<a href="http://twitter.com/y_ogagaga">@y_ogagaga</a><br>
-<a href="http://twitter.com/smokeymonkey">@smokeymonkey</a><br>
-<a href="http://about.me/kaznum">@kaznum</a><br>
-</td>
-</tr>
-<tr>
-<td>申し込み</td>
-<td><a href="http://techmix-hokkaido.doorkeeper.jp/events/13592">こちらからお願いします</a></td>
-</tr>
-<tr>
-<td>Speakers</td>
-<td>
-<table border="1">
-<% data.timetable.sessions.select{|s| s.speaker == 1 }.sort{|a,b| a.time <=> b.time }.each do |s| %>
-  <tr>
-    <% if s.url %>
-      <td><a href="<%= s.url %>"><%= s.name %></a></td>
-    <% else %>
-      <td><%= s.name %></td>
-    <% end %>
-    <td><%= s.introduction %></td>
-  </tr>
-<% end %>
-</table>
-</tr>
-<tr>
-<td>Time Table</td>
-<td>
-<table border="1">
-<tr><td>時間</td><td>タイトル</td><td>スピーカー</td></tr>
-<% data.timetable.sessions.sort{|a,b| a.time <=> b.time }.each do |s| %>
-  <tr>
-    <td><%= s.time %></td>
-    <td><%= s.title %></td>
-    <% if s.url %>
-    <td><a href="<%= s.url %>"><%= s.name %></a></td>
-    <% else %>
-    <td><%= s.name %></td>
-    <% end %>
-  </tr>
-<% end %>
-</table>
-</td>
-</tr>
-</div>
+</section>
 
+
+<section id="summary" class="section">
+<h1>SUMMARY<span>概要</span></h1>
+
+<dl class="clear">
+<dt>DATE</dt>
+<dd>2014/12/06(Sat)</dd>
+<dt>TIME</dt>
+<dd>Open-13:00 Start-13:30 End-19:00</dd>
+<dt>PlACE</dt>
+<dd>札幌市民ホール(札幌市中央区北1条西1丁目) 第1会議室　<a href="#googlemap">MAP</a></dd>
+<dt>PRICE</dt>
+<dd>会場費用として¥500頂いております。宜しくお願いします。</dd>
+<dt>STAFF</dt>
+<dd>
+<a href="https://twitter.com/y_ogagaga" target="_blank">@y_ogagaga</a>
+<a href="https://twitter.com/smokeymonkey" target="_blank">@smokeymonkey</a>
+<a href="http://about.me/kaznum" target="_blank">@kaznum</a>
+</dd>
+</dl>
+</section>
+
+
+<section id="speaker" class="section">
+<h1>SPEAKER<span>スピーカー</span></h1>
+
+<ul class="speaker">
+  <% data.timetable.sessions.select{|s| s.speaker == 1 }.sort{|a,b| a.time <=> b.time }.each do |s| -%>
+  <li class="clear">
+    <div class="speaker-ph">
+      <% if s.avatar -%>
+        <a href="https://twitter.com/sandinist" target="_blank"><img src="img/<%= s.avatar %>" width="90" height="90" alt="sandinist"></a>
+      <% end -%>
+    </div>
+    <div class="speaker-name">
+      <% if s.url -%>
+        <a href="<%= s.url %>" target="_blank"><%= s.name %></a>
+      <% else -%>
+        <%= s.name -%>
+      <%- end -%>
+    </div>
+    <div class="speaker-comment"><%= s.introduction %></div>
+  </li>
+  <% end -%>
+</ul>
+</section>
+
+
+<section id="timetable" class="section">
+<h1>TIMETABLE<span>タイムテーブル</span></h1>
+
+<dl class="clear">
+  <% data.timetable.sessions.sort{|a,b| a.time <=> b.time }.each do |s| -%>
+    <dt><%= s.time %></dt>
+    <dd><%= s.title %>
+      <% if s.url -%>
+        <a href="<%= s.url %>" target="_blank"><%= s.name %></a>
+      <% else -%>
+        <%= s.name %>
+      <% end -%>
+    </dd>
+  <% end -%>
+</dl>
+</section>
+
+
+<section id="access" class="section">
+<h1>ACCESS<span>アクセス</span></h1>
+
+<p>
+札幌市民ホール 第1会議室（札幌市中央区北1条西1丁目）<br>
+JR札幌駅から徒歩約15分　東西線大通駅・南北線大通駅・東豊線大通駅にて下車、31番出口正面<br>
+<a href="https://www.google.co.jp/maps/preview?q=%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8C%971%E6%9D%A1%E8%A5%BF1%E4%B8%81%E7%9B%AE&ie=UTF8&g=%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8C%971%E6%9D%A1%E8%A5%BF1%E4%B8%81%E7%9B%AE&ll=43.069703,141.359797&spn=0.021945,0.036478&z=14&iwloc=addr&source=embed" target="_blank">Googlemapで見る</a>
+</p>
+<div id="googlemap"></div>
+</section>
+
+<div class="sns">
+<ul>
+<li>SHARE!</li>
+<li class="twitter">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.techmix-hokkaido.com/" data-count="vertical">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</li>
+<li class="facebook">
+<div class="fb-like" data-href="http://www.techmix-hokkaido.com/" data-width="70" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</li>
+</ul>
+<!-- .sns --></div>
+</article>
