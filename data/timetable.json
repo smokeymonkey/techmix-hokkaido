@@ -27,30 +27,21 @@
       "introduction": "札幌でメーカー系の SEとして勤務。ここ数年はプロダクト・サービスのライフサイクルよりも息の長いチームを運営し ています。仕事はiOSアプリを中心に、いわゆるふつうのアジャイルなソフトウェア開発を組織に> 広げる活動も実施しています。最近の興味はVRやモーションセンサー関連。"
     },
     {
-      "speaker": 1,
-      "name": "@ursm",
-      "avatar": "speaker_ursm.png",
-      "url": "http://twitter.com/ursm",
-      "time": "14:20-14:40",
-      "title": "開発環境の作りかた",
-      "introduction": "札幌には縁もゆかりもないものの、家から出ないのでどこにいても変わらないことに気付き2014年にえにしテックに入社。Webアプリケーション開発のやや下のあたりを専門とするプログラマ。好きなパッケージ管理システムはPortage。Kinesis Contoured Keyboardを自宅用・職場用・貸出用の3枚所持している。将来の夢は全角文字しか受け付けないフォームが存在しない世界を実現すること。"
-    },
-    {
       "speaker": 0,
       "name": null,
       "url": null,
-      "time": "14:40-14:50",
+      "time": "14:20-14:50",
       "title": "休憩",
       "introduction": null
     },
     {
       "speaker": 1,
-      "name": "@furuya02",
-      "avatar": "speaker_furuya02.png",
-      "url": "http://twitter.com/furuya02",
+      "name": "@ursm",
+      "avatar": "speaker_ursm.png",
+      "url": "http://twitter.com/ursm",
       "time": "14:50-15:10",
-      "title": "",
-      "introduction": "札幌在住の自称プログラマです。C#が好きで、夜な夜な試行錯誤を繰り返しています。最近は、Xamarinに嵌っていて、ほぼ毎日ザマッてます。皆さんもザマッてますか～？"
+      "title": "開発環境の作りかた",
+      "introduction": "札幌には縁もゆかりもないものの、家から出ないのでどこにいても変わらないことに気付き2014年にえにしテックに入社。Webアプリケーション開発のやや下のあたりを専門とするプログラマ。好きなパッケージ管理システムはPortage。Kinesis Contoured Keyboardを自宅用・職場用・貸出用の3枚所持している。将来の夢は全角文字しか受け付けないフォームが存在しない世界を実現すること。"
     },
     {
       "speaker": 1,
