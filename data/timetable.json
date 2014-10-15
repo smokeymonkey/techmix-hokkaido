@@ -30,7 +30,7 @@
       "speaker": 0,
       "name": null,
       "url": null,
-      "time": "14:20-14:50",
+      "time": "14:20-14:30",
       "title": "休憩",
       "introduction": null
     },
@@ -39,7 +39,7 @@
       "name": "@ursm",
       "avatar": "speaker_ursm.png",
       "url": "http://twitter.com/ursm",
-      "time": "14:50-15:10",
+      "time": "14:30-14:50",
       "title": "開発環境の作りかた",
       "introduction": "札幌には縁もゆかりもないものの、家から出ないのでどこにいても変わらないことに気付き2014年にえにしテックに入社。Webアプリケーション開発のやや下のあたりを専門とするプログラマ。好きなパッケージ管理システムはPortage。Kinesis Contoured Keyboardを自宅用・職場用・貸出用の3枚所持している。将来の夢は全角文字しか受け付けないフォームが存在しない世界を実現すること。"
     },
@@ -48,7 +48,7 @@
       "name": "@giginet",
       "avatar": "speaker_giginet.png",
       "url": "http://twitter.com/giginet",
-      "time": "15:10-15:30",
+      "time": "14:50-15:10",
       "title": "",
       "introduction": "突っ走るプログラマ。普段はiOSアプリを中心に，インディーゲーム開発を行っている。札幌ゲーム製作者コミュニティKawazを運営しており、48時間でゲームを作るハッカソンGlobal Game Jamの運営や、各種ゲーム開発系の勉強会も主催している。ゲーム開発のみならず，はてなやクックパッドのインターンシップにも参加するなど，Web開発も行っている。本業は大学院生。好きな言語はPython、Objective-C。"
     },
@@ -56,7 +56,7 @@
       "speaker": 1,
       "name": "稲葉一紀",
       "url": "http://inaba-serverdesign.jp/",
-      "time": "15:30-15:50",
+      "time": "15:10-15:30",
       "title": "",
       "introduction": "札幌市在住、フリーランスのサーバーインフラエンジニア。クラウド上（たまにオンプレミスも）で、セキュリティや性能、冗長性などを考慮したサーバー環境を設計・構築する。定期的にIaaSクラウドの比較調査を行っている。"
     },
@@ -64,7 +64,7 @@
       "speaker": 0,
       "name": null,
       "url": null,
-      "time": "15:50-16:00",
+      "time": "15:30-15:40",
       "title": "休憩",
       "introduction": null
     },
@@ -73,7 +73,7 @@
       "name": "@rarere",
       "avatar": "speaker_rarere.png",
       "url": "http://twitter.com/rarere",
-      "time": "16:00-16:20",
+      "time": "15:40-16:00",
       "title": "ごみカレンダー",
       "introduction": "札幌でインフラ方面の仕事をしています。せきゅっぽろやHokkaido.pmあたりに比較的よくいってるただのエンドユーザです。好きなネタはハマチです。"
     },
@@ -82,7 +82,7 @@
       "name": "@irasally",
       "avatar": "speaker_irasally.png",
       "url": "http://twitter.com/irasally",
-      "time": "16:20-16:40",
+      "time": "16:00-16:20",
       "title": "",
       "introduction": "通称オム子。札幌市内でn回転職し、現在は独立系SI企業に勤務している。2014年「人妻」という新しい呼び名を手に入れた。職業はプログラマだが、自分が「技術者」なのか日々自問自答中。最近はCodeと人との関わりに興味を持っている。"
     },
@@ -91,7 +91,7 @@
       "name": "@iloop_sapporo",
       "avatar": "speaker_iloop_sapporo.png",
       "url": "http://twitter.com/iloop_sapporo",
-      "time": "16:40-17:00",
+      "time": "16:20-16:40",
       "title": "",
       "introduction": "株式会社インフィニットループは、札幌市内にあるシステム開発会社です。主にスマートフォン向けゲームやブラウザゲーム開発を行っています。"
     },
@@ -99,9 +99,18 @@
       "speaker": 0,
       "name": null,
       "url": null,
-      "time": "17:00-17:10",
+      "time": "16:40-16:50",
       "title": "休憩",
       "introduction": null
+    },
+    {
+      "speaker": 1,
+      "name": "@cocominap",
+      "avatar": "speaker_cocominap.png",
+      "url": "http://twitter.com/cocominap",
+      "time": "16:50-17:10",
+      "title": "App Extension TIPS",
+      "introduction": "札幌で活動するiOSディベロッパー。ヨドバシカメラでiPhone 3GSに出会い、スワイプやピンチインなどのUIに触れて以来、iPhoneの大ファンに。音系アプリや寿司の枚数を数えるアプリなど、「シンプルで既存のものとはひと味違うアプリ」をテーマにiPhoneアプリを個人で制作。使用言語はObjective-CとSwiftがメイン。趣味はピアノ、ゲーム、ジム通い。"
     },
     {
       "speaker": 1,
@@ -114,19 +123,10 @@
     },
     {
       "speaker": 1,
-      "name": "@cocominap",
-      "avatar": "speaker_cocominap.png",
-      "url": "http://twitter.com/cocominap",
-      "time": "17:30-17:50",
-      "title": "App Extension TIPS",
-      "introduction": "札幌で活動するiOSディベロッパー。ヨドバシカメラでiPhone 3GSに出会い、スワイプやピンチインなどのUIに触れて以来、iPhoneの大ファンに。音系アプリや寿司の枚数を数えるアプリなど、「シンプルで既存のものとはひと味違うアプリ」をテーマにiPhoneアプリを個人で制作。使用言語はObjective-CとSwiftがメイン。趣味はピアノ、ゲーム、ジム通い。"
-    },
-    {
-      "speaker": 1,
       "name": "@niku_name",
       "avatar": "speaker_niku_name.png",
       "url": "http://twitter.com/niku_name",
-      "time": "17:50-18:10",
+      "time": "17:30-17:50",
       "title": "†Elixir†",
       "introduction": "コンサドーレ札幌が好きなプログラマ。ErlangVM上で動作する言語に関する話題やそうでない話題でわいわいやるsapporo.beamという集まりをだいたい木曜日に札幌やインターネット上で行っている。飽きっぽいところがあるがRubyやEmacsとは長くおつきあいしている。最近はErlangVM上で動作するRuby風の記述ができる言語Elixirと遊んでいる。これからやってみたいことはカーリング、指笛が吹けるようになること、バク転。"
     },
@@ -134,7 +134,7 @@
       "speaker": 0,
       "name": "@y_ogagaga",
       "url": "http://twitter.com/y_ogagaga",
-      "time": "18:10-18:20",
+      "time": "17:50-18:00",
       "title": "さいごに",
       "introduction": "-"
     }
